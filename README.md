@@ -1,1 +1,39 @@
-# woaini.github.io
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/4.css" />
+		<title></title>
+		<style>
+			body{
+				background-image: url(img/th.jpg);
+				background-size:cover;
+				background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>很高兴你能够联系我们</h1>
+		<div>
+			<div class="div">
+				
+		<form action="">
+			<label for="fname">&nbsp;&nbsp;&#128521姓名：</label>
+			<input type="text" /><br />
+			<label for="lname">联系方式：</label>
+			<input type="tel" name="lname"/ class="tooltip">
+		
+			<p>请选择你的性别
+			 <input type="radio" name="gender" value="男"> 男
+			 <input type="radio" name="gender" value="女"> 女</p>
+			<input type="submit" value="提交"/ style="position: absolute;right: 40%;">
+		</form>
+		</div>
+			</div>
+			<a href="./index.html" style="text-decoration: none; color: brown;" >返回</a>
+			<footer>
+			  <p>&#128520Posted by:王耀 </p>
+			  <p><time pubdate datetime="2025-1-2"></time></p>
+			</footer>
+	</body>
+</html>
